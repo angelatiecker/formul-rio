@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #E5E5E5;
+}
+
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+
+}
+ 
+
+header {
+  width: 750px;
+  margin-top: 148px;
+}
+
+p {
+  height: 49px;
+  width: 353px;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: regular;
+
+}
+
+.page {
+  width: 353px;
+  padding-left: 343px;
+  border: none;
+}
+
+header h1 {
+  font-family: "Staatliches", sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+
+  margin-bottom: 34px;
+  
+}
+
+form {
+  width: 750px;
+  height: 1192px;
+  margin-top: 44px;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0 0;
+
+  min-height: 300px;
+
+  padding: 64px;
+
+  min-height: 300px;
+  
+}
+
+fieldset {
+  border-style: none;
+
+}
+
+.input-group {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.input-wrapper, .email {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+fieldset legend {
+  font-family: "Staatliches", sans-serif;
+  color: #535971;
+  line-height: 34px;
+  font-size: 24px;
+  
+
+  width: 100%;
+
+  border-bottom: 1px solid #E6E6F0;
+  padding-top: 16px;
+  
+}
+
+
+.input-wrapper label {
+  color: #4E4958;
+  font-size: 14px;
+  line-height: 24px;
+
+  margin-top: 36px;
+  margin-bottom: 8px;
+  
+}
+
+input {
+  width: 100%;
+  background-color: #fafafc;
+  border-radius: 8px;
+  height: 56px;
+  border: 1px solid #e6e6f0;
+  margin-bottom: 20px;
+}
+
+label span {
+  font-size: 12px;
+  color: #C1BCCC;
+  padding-bottom: 16px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+
+a {
+  font-size: 20px;
+}
+
+footer button {
+  padding: 15px 279px 15px 279px;
+  background: #ff5374;
+  border-radius: 20px;
+  font-size: 20px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  background: #535971;
+  height: 136px;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 375px;
+  margin-bottom: 100px;
+  border-radius: 0 0 8px 8px;
+  border-top: 1px solid #535971;
+  justify-content: center;
+}
+
+footer button:hover {
+  background: #e4274d;
+}
